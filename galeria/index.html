@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <!-- Google Tag Manager -->
+    <script>window.dataLayer = window.dataLayer || [];</script>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KXHLCWLR');</script>
+    <!-- End Google Tag Manager -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Galeria · Peduardo.</title>
+    <meta
+      name="description"
+      content="Histórias originais, ilustrações e os processos de Paulo Eduardo M. S."
+    >
+    <link rel="icon" href="../assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/fonts.css">
+    <link rel="stylesheet" href="../assets/css/site.css">
+    <script src="../assets/js/conteudo.js" defer></script>
+    <script src="../assets/js/render.js" defer></script>
+    <script src="../assets/js/site.js" defer></script>
+  </head>
+
+  <body data-base="../" class="gallery-page">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KXHLCWLR"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="site-header">
+      <nav class="nav" aria-label="Navegação principal">
+        <a class="wordmark" href="../">Peduardo<span>.</span></a>
+
+        <div class="nav-links">
+          <a href="../links/">Obras</a>
+          <a href="../galeria/" aria-current="page">Galeria</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="conteudo" class="wrap">
+      <header class="page-intro">
+        
+        <h1>Galeria<span style="color: var(--red);">.</span></h1>
+        <span class="eyebrow">Ilustrações, rascunhos e outras imagens.</span>
+      </header>
+
+      <div class="gallery-toolbar" hidden>
+        <div class="gallery-toolbar-main">
+          <button class="gallery-filter-toggle" type="button" data-gallery-filter-toggle aria-expanded="false" aria-controls="gallery-filters">Buscar e filtrar</button>
+          <div class="gallery-order-actions" role="group" aria-label="Organizar imagens">
+            <button type="button" data-gallery-shuffle>Embaralhar</button>
+            <button type="button" data-gallery-reset hidden>Restaurar ordem</button>
+          </div>
+        </div>
+        <form class="gallery-filters" id="gallery-filters" role="search" hidden>
+          <label for="gallery-search">Buscar imagens</label>
+          <input id="gallery-search" type="search" placeholder="Título, tipo ou tag…">
+          <div class="gallery-tag-filters" role="group" aria-label="Filtrar por tipo e tag"></div>
+        </form>
+        <div class="gallery-filter-status">
+          <div class="gallery-filter-tools">
+            <button type="button" data-gallery-clear hidden>Limpar filtros</button>
+            <button type="button" data-gallery-share>Copiar link</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-grid gallery-masonry" data-gallery-grid></div>
+      <noscript>Ative o JavaScript para carregar as imagens da galeria.</noscript>
+
+      <p class="gallery-empty" hidden>Nenhuma imagem encontrada. Tente outra busca ou tag.</p>
+    </main>
+
+    <footer class="site-footer">
+      <p>Paulo Eduardo M. S.</p>
+      <a href="https://instagram.com/peduardo.insta" target="_blank" rel="noopener noreferrer">
+        @peduardo.insta ↗
+      </a>
+    </footer>
+
+    <dialog id="preview" aria-labelledby="preview-title">
+      <button class="dialog-close" type="button" aria-label="Fechar prévia" autofocus>✕</button>
+      <div id="preview-content"></div>
+    </dialog>
+
+    <p class="toast" role="status" id="toast"></p>
+  </body>
+</html>

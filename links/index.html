@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <!-- Google Tag Manager -->
+    <script>window.dataLayer = window.dataLayer || [];</script>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KXHLCWLR');</script>
+    <!-- End Google Tag Manager -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Links · Peduardo.</title>
+    <meta name="description" content="Histórias originais, ilustrações e os processos de Paulo Eduardo M. S.">
+    <link rel="icon" href="../assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/css/fonts.css">
+    <link rel="stylesheet" href="../assets/css/site.css">
+    <script src="../assets/js/conteudo.js" defer></script>
+    <script src="../assets/js/render.js" defer></script>
+    <script src="../assets/js/site.js" defer></script>
+  </head>
+
+  <body data-base="../">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KXHLCWLR"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="site-header">
+      <nav class="nav" aria-label="Navegação principal">
+        <a class="wordmark" href="../">Peduardo<span>.</span></a>
+
+        <div class="nav-links">
+          <a href="../links/" aria-current="page">Obras</a>
+          <a href="../galeria/">Galeria</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="conteudo" class="links-main">
+      <section class="profile" aria-labelledby="nome">
+        <picture>
+          <source srcset="../assets/img/perfil-foto.jpg" media="(prefers-reduced-motion: reduce)">
+          <img class="profile-picture" src="../assets/img/perfil-foto.gif" alt="Retrato de Paulo Eduardo M. S.">
+        </picture>
+
+        <h1 id="nome">Paulo Eduardo M. S.</h1>
+        <div class="status-line" aria-hidden="true" id="profile-status">
+          Brincando com os gatos.
+        </div>
+      </section>
+
+      <div class="socials" aria-label="Redes e outros links">
+        <a class="social-circle" href="https://instagram.com/peduardo.insta" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram" >
+          <img src="../assets/img/insta.webp" alt="" width="25" height="25">
+        </a>
+
+        <a class="social-circle" href="https://tiktok.com/@peduardo.tkk" target="_blank" rel="noopener noreferrer" aria-label="TikTok" title="TikTok">
+          <img src="../assets/img/tkk.webp" alt="" width="25" height="25">
+        </a>
+
+        <a class="social-circle" href="../galeria/" aria-label="Galeria" title="Galeria" >
+          <img src="../assets/img/galeria.webp" alt="" width="25" height="25">
+        </a>
+
+        <button class="social-circle" type="button" data-share aria-label="Compartilhar site" title="Compartilhar">
+          <img src="../assets/img/share.webp" alt="" width="25" height="25">
+        </button>
+      </div>
+
+      <div class="links-tabs" role="tablist" aria-label="Conteúdo do portfólio" data-links-tabs hidden>
+        <button type="button" id="obras-tab" role="tab" aria-selected="true" aria-controls="obras-panel">Obras e projetos</button>
+        <button type="button" id="contato-tab" role="tab" aria-selected="false" aria-controls="contato-panel" tabindex="-1">Eu. | Contato</button>
+      </div>
+
+      <section id="obras-panel" role="tabpanel" aria-labelledby="obras-tab" tabindex="0">
+        <div data-featured-projects></div>
+        <details class="extra-works" hidden>
+          <summary>Outras histórias</summary>
+          <div data-other-projects></div>
+        </details>
+      </section>
+
+      <section id="contato-panel" role="tabpanel" aria-labelledby="contato-tab" tabindex="0" hidden>
+        <div data-contact-card></div>
+      </section>
+
+      <p class="page-footnote">
+        
+      </p>
+    <noscript>Ative o JavaScript para carregar as obras e suas informações.</noscript>
+    </main>
+
+    <footer class="site-footer">
+      <p data-profile-footer>Paulo Eduardo M. S.</p>
+      <a href="https://instagram.com/peduardo.insta" target="_blank" rel="noopener noreferrer">
+        @peduardo.insta ↗
+      </a>
+    </footer>
+
+    <dialog id="preview" aria-labelledby="preview-title">
+      <button class="dialog-close" type="button" aria-label="Fechar prévia" autofocus>×</button>
+      <div id="preview-content"></div>
+    </dialog>
+
+    <p class="toast" role="status" id="toast"></p>
+  </body>
+</html>
