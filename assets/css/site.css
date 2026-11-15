@@ -218,14 +218,14 @@ img {
 .socials {
   display: flex;
   justify-content: center;
-  gap: 14px;
+  gap: 25px;
   margin: 24px auto 24px;
   flex-wrap: wrap;
 }
 
 .social-circle {
-  width: 50px;
-  height: 50px;
+  width: 47px;
+  height: 47px;
   border-radius: 50%;
   background: var(--red);
   display: inline-flex;
@@ -244,11 +244,19 @@ img {
 }
 
 .social-circle svg {
-  width: 25px;
-  height: 25px;
+  display: block;
+  flex-shrink: 0;
   fill: none;
   stroke: currentColor;
   stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* Logotipos: Simple Icons (CC0). A cor acompanha o botão. */
+.social-circle svg.icon-brand {
+  fill: currentColor;
+  stroke: none;
 }
 
 .social-circle:hover {
@@ -482,6 +490,7 @@ img {
   max-width: 100%;
   border-radius: 999px;
   padding: 3px 8px;
+  white-space: nowrap;
 }
 
 .extra-works {
@@ -1303,8 +1312,13 @@ body:has(dialog[open]) {
   background: #211b1899;
   backdrop-filter: blur(4px);
   color: #fff;
-  font-size: 18px;
   line-height: 1;
+}
+
+.image-expand-icon svg {
+  display: block;
+  width: 18px;
+  height: 18px;
 }
 
 .image-dialog-art:hover .image-expand-icon,
@@ -1451,6 +1465,8 @@ button.image-dialog-art {
   border-top: 1px solid var(--line);
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
   gap: 16px;
   color: var(--muted);
   font-size: 12px;
@@ -1462,6 +1478,23 @@ button.image-dialog-art {
 
 .site-footer p {
   margin: 0;
+}
+
+.footer-socials {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-socials .social-circle {
+  width: 36px;
+  height: 36px;
+}
+
+.footer-socials .social-circle img,
+.footer-socials .social-circle svg {
+  width: 18px;
+  height: 18px;
 }
 
 .toast {
@@ -1728,12 +1761,12 @@ button.image-dialog-art {
   }
 
   .socials {
-    gap: 10px;
+    gap: 20px;
   }
 
   .social-circle {
-    width: 46px;
-    height: 46px;
+    width: 43px;
+    height: 43px;
   }
 
   .project-card {

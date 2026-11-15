@@ -258,6 +258,24 @@ window.SITE_DATA = {
       "context": "Releitura da carta de tarot \"Os Amantes\" com os protagonistas da história."
     },
     {
+      "id": "abe-matilda-animation",
+      "type": "Ilustração",
+      "tags": ["TINO", "Extras", "Promocional", "Animação"],
+      "links": [],
+      "title": "Abe e Matilda - Animação",
+      "subtitle": "",
+      "project": "",
+      "page": "",
+      "image": "assets/img/galeria/abe-matilda-animation.gif",
+      "width": 560,
+      "height": 373,
+      "thumbnailWidth": 560,
+      "thumbnailHeight": 373,
+      "thumbnail": "assets/img/galeria/abe-matilda-animation.gif",
+      "alt": "Abe e Matilda correndo um atrás do outro.",
+      "context": "Animação especial usada para foto de perfil."
+    },
+    {
       "id": "florie-bm",
       "type": "Ilustração de personagem",
       "tags": [ "Bela Maldição", "Extras", "Promocional" ],
